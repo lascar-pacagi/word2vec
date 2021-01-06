@@ -1,4 +1,4 @@
-# Accompanying code for the video on word embedding
+# Accompanying code for word embedding video
 
 ## Video
 
