@@ -2,7 +2,7 @@
 
 ## Video
 
-[Word embedding]()
+[Word embedding](https://youtu.be/Ozj2ojn4Z4A)
 
 ## Installation
 

@@ -104,7 +104,7 @@ struct WordEmbedding {
                     }
                     syn1neg1_mutex[target].lock();
                     float dot_product = inner_product(begin(neu1), end(neu1),
-                                                      begin(syn1neg1[target]), static_cast<float>(0));
+                                                      begin(syn1neg1[target]), (float)0);
                     float error = label - sigmoid(dot_product);
                     //error *= sigmoid_derivative(dot_product);
                     neu1e += syn1neg1[target] * error;
