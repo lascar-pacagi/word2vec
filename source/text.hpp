@@ -60,7 +60,7 @@ struct Text {
             }
             dbg(this->text.size());
 #ifdef DEBUG
-            for (int i = 0; i < 1000; i++) {
+            for (int i = 0; i < min(1000, (int)text.size()); i++) {
                 cout << this->vocabulary[this->text[i]] << ' ';
             }
             cout << endl;
